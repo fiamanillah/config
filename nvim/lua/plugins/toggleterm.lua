@@ -22,6 +22,7 @@ return {
       direction = "float",
       close_on_exit = true,
       shell = vim.o.shell,
+      -- shell = "/usr/bin/zsh -i",
       auto_scroll = true,
       float_opts = {
         border = "curved",
@@ -48,6 +49,10 @@ return {
       { "<leader>t2", "<cmd>2ToggleTerm<cr>", desc = "Toggle terminal 2" },
       { "<leader>t3", "<cmd>3ToggleTerm<cr>", desc = "Toggle terminal 3" },
       { "<leader>t4", "<cmd>4ToggleTerm<cr>", desc = "Toggle terminal 4" },
+      { "<leader>t5", "<cmd>5ToggleTerm<cr>", desc = "Toggle terminal 5" },
+      
+
+
       
       -- Send selection to terminal
       { "<leader>ts", "<cmd>ToggleTermSendCurrentLine<cr>", desc = "Send line to terminal" },
